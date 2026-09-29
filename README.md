@@ -1,52 +1,125 @@
-# Cybersecurity Portfolio
+# Cloud Security & DevOps Portfolio
 
 Hi, I'm Smith 👋
 
-I'm building my cybersecurity portfolio around the kind of work I want to do professionally: **SOC analysis, incident response, cloud security, and identity / Zero Trust**.
+I'm a **M.Sc. Computer Science graduate with a focus on Cyber Security**, building my career at the intersection of **cloud infrastructure, DevOps, cloud security, and cybersecurity**.
 
-This repository is the main entry point to my hands-on security work. Rather than duplicating my GitHub profile, this page focuses on **what I have built, what I have investigated, and the technical areas I am developing**.
+This repository is the main entry point to my hands-on technical work. It brings together my infrastructure, cloud-security, security engineering and investigation projects, with a focus on practical implementation and continuous learning.
 
-`SOC` `Incident Response` `Cloud Security` `Identity` `Zero Trust`
+`Cloud Infrastructure` `DevOps` `Cloud Security` `DevSecOps` `Azure` `Kubernetes` `Cybersecurity`
 
 ---
 
-## 🧩 Security Skills
+## 🚀 Featured Project
 
-My current technical skill set spans security operations, cloud and identity security, web security, systems, automation, and security governance.
+### DevOps CI/CD Kubernetes Lab
 
-### Security Operations
+[**Open the DevOps CI/CD Kubernetes Lab →**](https://github.com/Smithn1205/devops-cicd-kubernetes-lab)
 
-`Microsoft Sentinel` `Microsoft Defender XDR` `Splunk` `KQL` `SPL` `Log Analysis` `Alert Triage` `Event Correlation` `Incident Response` `Threat Hunting` `MITRE ATT&CK`
+My current flagship hands-on project, focused on building practical DevOps and cloud-infrastructure skills.
 
-**Practical focus:** security alert investigation, log correlation, incident reconstruction, detection logic, threat hunting, containment, remediation, and analyst documentation.
+**Technology stack:**
 
-### Cloud & Identity Security
+`GitLab` `Jenkins` `Docker` `Kubernetes` `CI/CD`
+
+The project is being developed progressively, starting with Docker and Jenkins fundamentals and moving toward automated CI/CD, containerization and Kubernetes deployment.
+
+**Current learning progression:**
+
+```
+Docker fundamentals
+       ↓
+Jenkins
+       ↓
+Freestyle jobs
+       ↓
+GitHub integration
+       ↓
+Jenkins Pipeline
+       ↓
+Docker-based builds
+       ↓
+Kubernetes deployment
+       ↓
+DevSecOps security controls
+```
+
+The repository documents the implementation as each stage is completed rather than claiming features that have not yet been implemented.
+
+---
+
+## ☁️ Cloud & Security Skills
+
+### Cloud Infrastructure & DevOps
+
+`Docker` `Kubernetes` `Jenkins` `GitLab` `CI/CD` `Git` `YAML` `Linux`
+
+**Current focus:** containerization, CI/CD automation, infrastructure workflows, Kubernetes and platform engineering fundamentals.
+
+### Cloud Security & Identity
 
 `Microsoft Azure` `AWS` `Microsoft Entra ID` `AWS IAM` `RBAC` `Conditional Access` `MFA` `Least Privilege` `Zero Trust` `SASE`
 
-**Practical focus:** identity controls, access policies, cloud security monitoring, authentication security, and architecture-level security decisions.
+**Practical focus:** identity controls, access management, cloud security monitoring, authentication security and secure cloud architecture.
+
+### Security Operations & Detection
+
+`Microsoft Sentinel` `Microsoft Defender XDR` `KQL` `Splunk` `SPL` `Log Analysis` `Incident Investigation` `Threat Hunting`
+
+**Practical focus:** security monitoring, alert investigation, log analysis, detection logic and incident investigation.
 
 ### Network & Web Security
 
-`DNS` `TCP/IP` `SSL/TLS` `Cloudflare WAF` `HTTP` `Burp Suite` `OWASP Top 10` `Vulnerability Assessment`
+`DNS` `TCP/IP` `SSL/TLS` `Cloudflare WAF` `HTTP` `Burp Suite` `OWASP Top 10`
 
-**Practical focus:** network and web traffic analysis, WAF controls, request analysis, vulnerability testing, access-control issues, and security hardening.
-
-### Threat Modelling & Security Engineering
-
-`STRIDE` `DREAD` `PASTA` `Secure SDLC` `DevSecOps` `Risk Assessment` `Security Architecture`
-
-**Practical focus:** identifying attack paths, assessing security risks, evaluating controls, and connecting technical findings to practical mitigations.
+**Practical focus:** network and web traffic analysis, WAF controls, vulnerability testing and security hardening.
 
 ### Programming & Automation
 
-`Python` `Bash` `PowerShell` `YAML` `REST APIs` `Azure Logic Apps` `Git` `GitHub`
+`Python` `Bash` `PowerShell` `REST APIs` `Git` `GitHub`
 
-**Practical focus:** security automation, investigation support, scripting, API-based workflows, and repeatable technical processes.
+---
 
-### Systems & Security Foundations
+## ☁️ Azure Cloud Security
 
-`Windows` `Linux` `Ubuntu` `Kali` `Network Security` `Technical Documentation` `Incident Documentation`
+Hands-on Azure security work combining **Microsoft Sentinel, Defender XDR, Entra ID and KQL**.
+
+- Integrated security log sources into Microsoft Sentinel.
+- Developed KQL-based investigation queries.
+- Investigated security activity across Sentinel and Defender XDR.
+- Worked with Entra ID identity and access controls.
+- Applied least-privilege and Zero Trust principles to identity security.
+
+This project provides the bridge between my **cloud infrastructure** and **security engineering** work.
+
+---
+
+## 🌐 Cloudflare Network Security
+
+Security controls implemented using **Cloudflare DNS, SSL/TLS and WAF**.
+
+The project focused on:
+
+- DNS configuration
+- SSL/TLS security
+- WAF rules
+- Traffic controls
+- Network security configuration
+- Security and performance considerations
+
+---
+
+## 🛡️ Microsoft Defender XDR
+
+Hands-on security engineering and investigation work using **Microsoft Defender XDR**.
+
+The work focuses on:
+
+- Detection and investigation
+- Endpoint security
+- Security alerts
+- Threat analysis
+- Incident response workflows
 
 ---
 
@@ -56,16 +129,14 @@ My current technical skill set spans security operations, cloud and identity sec
 
 [**Open the SOC Incident Response Lab →**](https://github.com/Smithn1205/SOC-Incident-Response-Lab)
 
-A self-built collection of SOC-style investigations designed around realistic analyst workflows rather than step-by-step tutorials.
+A self-built collection of SOC-style investigations covering realistic analyst workflows.
 
 | Investigation | Security focus |
 |---|---|
-| **SSH Brute Force** | Linux authentication analysis, failed-login patterns, source IP investigation and Sentinel/KQL detection |
-| **Suspicious PowerShell** | Windows process activity, command-line evidence and suspicious execution analysis |
-| **Windows Authentication Anomaly** | Authentication behaviour, account activity and event correlation |
-| **Cloudflare WAF Investigation** | HTTP/WAF activity, suspicious traffic and network-security investigation |
-
-The cases are structured to demonstrate practical investigation work including detection, evidence gathering, timeline reconstruction, ATT&CK mapping, and response considerations.
+| **SSH Brute Force** | Linux authentication analysis, failed-login patterns and Sentinel/KQL detection |
+| **Suspicious PowerShell** | Windows process activity and suspicious execution analysis |
+| **Windows Authentication Anomaly** | Authentication behaviour and event correlation |
+| **Cloudflare WAF Investigation** | HTTP/WAF activity and network-security investigation |
 
 ---
 
@@ -75,64 +146,30 @@ The cases are structured to demonstrate practical investigation work including d
 
 [**Open the KC7 Security Investigations →**](https://github.com/Smithn1205/KC7-Security-Investigations)
 
-Completed **KC7 Security Analyst I** path with documented investigation case studies covering multiple security-data sources and attack scenarios.
-
-| Case | Investigation areas |
-|---|---|
-| **CloutHaus** | Authentication, users, hosts, IP addresses and network pivots |
-| **A Scandal in Valdoria** | Email activity, process execution, persistence, discovery, collection and exfiltration |
-| **VirusTotal Fundamentals** | Malware triage, YARA, sandbox behaviour, certificates, passive DNS and indicators |
-| **Jojo's Hospital** | Ransomware investigation, Cobalt Strike, discovery, data staging, exfiltration and cleanup |
-
-**Path status:** `1 path completed`
-
-This work complements the self-built SOC lab by showing structured investigation practice across authentication, endpoint, network, DNS, file, malware and threat-intelligence data.
+Security investigation case studies covering authentication, endpoint, network, DNS, malware and threat-intelligence data.
 
 ---
 
-## 🛠️ Selected Security Projects
+## 🔐 Zero Trust & Cloud Security Architecture
 
-### Microsoft Azure Security
+### SASE vs. Traditional Zero Trust
 
-Hands-on Azure security work combining **Microsoft Sentinel, Defender XDR, Entra ID, KQL and Logic Apps**.
+**M.Sc. Computer Science – Focus on Cyber Security — SRH University of Applied Sciences, Berlin**
 
-- Integrated security log sources into Microsoft Sentinel.
-- Developed KQL-based analytics and investigation queries.
-- Investigated security incidents across Sentinel and Defender XDR.
-- Configured Entra ID RBAC, Conditional Access and MFA.
-- Applied least-privilege and Zero Trust principles to identity controls.
-- Automated selected response workflows using Azure Logic Apps.
+My Master's thesis examines **SASE versus traditional Zero Trust approaches for small and medium-sized enterprises**.
 
-### Splunk SIEM Lab
+The research connects with:
 
-Hands-on SIEM work using **Linux, Splunk, SPL, dashboards and threshold-based alerts**.
+- Zero Trust architecture
+- Identity and access security
+- Cloud security
+- Secure network access
+- Security architecture
+- ISO 27001
+- GDPR
+- Security control evaluation
 
-- Installed and configured Splunk in a Linux environment.
-- Onboarded multiple log sources and validated searchable events.
-- Wrote SPL queries to investigate and correlate security activity.
-- Built dashboards and threshold-based detection alerts.
-
-### Cloudflare Network Security
-
-Security controls implemented on a live website using **Cloudflare DNS, SSL/TLS, WAF, geo-based controls and rate limiting**.
-
-The work focused on balancing security controls with availability and performance while monitoring operational impact.
-
-### Web Security & Vulnerability Testing
-
-Completed **54 PortSwigger Web Security Academy labs** using Burp Suite across common web vulnerability classes including SQL injection, XSS, CSRF, SSRF and access-control issues.
-
-The work involved analysing requests, testing attack hypotheses safely, reproducing vulnerabilities, and developing remediation-focused findings.
-
-### Threat Modelling & DevSecOps
-
-Applied **STRIDE, DREAD and PASTA** to identify attack paths, assess risks and recommend mitigations. Also completed secure SDLC and CI/CD security work covering secrets management, dependency integrity, build security and credential hygiene.
-
-### AI Security & Policy Engineering
-
-Built a Python/Streamlit security-policy application using **RAG, ChromaDB and the Google Gemini API**, grounded in 22+ SANS security-policy templates.
-
-The project combines applied AI engineering with security-policy generation, retrieval grounding and security governance.
+The thesis provides an architectural and research perspective alongside my hands-on infrastructure and security projects.
 
 ---
 
@@ -141,32 +178,24 @@ The project combines applied AI engineering with security-policy generation, ret
 | Status | Certification / Learning | Relevance |
 |---|---|---|
 | ✅ | **Microsoft SC-900** | Security, compliance and identity fundamentals |
-| ✅ | **KC7 Security Analyst I** | Security investigations and KQL-based analysis |
-| 🎯 | **TryHackMe SAL1** | SOC analysis and practical defensive security |
-| 🎯 | **Microsoft SC-200** | Security operations, Sentinel, Defender XDR and threat hunting |
+| ✅ | **ISC2 Certified in Cybersecurity (CC)** | Cybersecurity foundations |
+| ✅ | **AWS Cloud Practitioner** | Cloud fundamentals |
+| 🎯 | **Microsoft SC-500** | Cloud and AI security / Azure security |
+| 🎯 | **TryHackMe SAL1** | Practical defensive security |
 
-My approach is to pair certifications with practical work so that the skills represented here are supported by investigations, labs, queries, or projects wherever possible.
+I aim to pair certifications with practical work so that the skills represented here are supported by projects, labs or technical implementation wherever possible.
 
 ---
 
-## 🔬 Academic Security Research
+## 🎯 Current Direction
 
-### SASE vs. Traditional Zero Trust
+I'm currently developing toward **Cloud Engineering, DevOps, Platform Engineering, Cloud Security and DevSecOps** roles.
 
-**M.Sc. Computer Science (Cybersecurity) — SRH University of Applied Sciences, Berlin**
+My technical progression is:
 
-My Master's thesis examines **SASE versus traditional Zero Trust approaches for small and medium-sized enterprises**.
+**Cloud Infrastructure → DevOps → DevSecOps → Cloud Security**
 
-The research connects with several areas represented in this portfolio:
-
-- Zero Trust architecture
-- Identity and access security
-- Cloud security
-- Secure network access
-- Security architecture and control selection
-- Security trade-offs for SME environments
-
-The thesis adds an architectural and research perspective to the portfolio alongside the more operational SOC and investigation work.
+My cybersecurity background provides a security-first perspective while I continue building deeper practical experience with infrastructure, automation, containers and cloud platforms.
 
 ---
 
@@ -174,62 +203,49 @@ The thesis adds an architectural and research perspective to the portfolio along
 
 | Skill area | Where to see it |
 |---|---|
-| **KQL / SIEM investigation** | SOC lab + KC7 investigations + Azure security work |
-| **Incident response** | SOC investigations + KC7 ransomware case |
-| **Threat hunting / detection** | Sentinel, Defender XDR and Splunk projects |
-| **Authentication analysis** | SSH brute force + Windows authentication + KC7 |
-| **Endpoint / process analysis** | PowerShell investigation + Defender XDR work |
-| **Network investigation** | Cloudflare WAF + outbound traffic + C2/exfiltration cases |
-| **Malware analysis** | VirusTotal Fundamentals investigation |
-| **Cloud security** | Azure security work + AWS experience |
-| **Identity security** | Entra ID, RBAC, Conditional Access and MFA |
-| **Web security** | PortSwigger labs + Cloudflare security work |
-| **Threat modelling** | STRIDE, DREAD, PASTA and DevSecOps work |
-| **Automation** | Python, Bash, PowerShell, Logic Apps and REST APIs |
-| **Security governance** | Zero Trust research, ISO 27001, GDPR and security-policy work |
+| **CI/CD & DevOps** | DevOps CI/CD Kubernetes Lab |
+| **Docker & containerization** | DevOps CI/CD Kubernetes Lab |
+| **Kubernetes** | DevOps CI/CD Kubernetes Lab |
+| **Jenkins** | DevOps CI/CD Kubernetes Lab |
+| **Cloud security** | Azure security work + Zero Trust research |
+| **Identity security** | Entra ID, IAM, RBAC, Conditional Access and MFA |
+| **Security monitoring** | Azure/Sentinel + Defender XDR |
+| **Incident investigation** | SOC Incident Response Lab + KC7 |
+| **Network security** | Cloudflare WAF + Zero Trust research |
+| **Web security** | Burp Suite / PortSwigger work |
+| **Automation** | Python, Bash, PowerShell and CI/CD |
+| **Security governance** | Zero Trust research, ISO 27001 and GDPR |
 
 ---
 
 ## 📁 Repository Map
 
-```text
-Cybersecurity-Portfolio
+```
+Cloud Security & DevOps Portfolio
+│
+├── 🚀 devops-cicd-kubernetes-lab
+│   └── DevOps / CI/CD / containerization / Kubernetes
 │
 ├── 🛡️ SOC-Incident-Response-Lab
-│   └── Self-built SOC & incident-response investigations
+│   └── SOC & incident-response investigations
 │
 ├── 🔎 KC7-Security-Investigations
 │   └── Structured security investigation case studies
 │
 └── 👤 Smithn1205
-    └── Personal GitHub profile and broader cybersecurity overview
+    └── Personal GitHub profile
 ```
-
-The repositories intentionally have different roles:
-
-- **Cybersecurity-Portfolio** → evidence hub and technical overview
-- **SOC-Incident-Response-Lab** → self-built SOC / IR casework
-- **KC7-Security-Investigations** → structured investigation case studies
-- **Smithn1205** → personal profile and high-level cybersecurity positioning
-
----
-
-## 🎯 Current Direction
-
-I am currently building toward a security operations role with a longer-term focus on **cloud and identity security**.
-
-My immediate progression is:
-
-**KC7 Security Analyst I → SAL1 → SC-200 → deeper cloud & identity security**
-
-The goal is to keep expanding from individual investigations into stronger detection, response, threat-hunting, cloud-security and identity-security capabilities.
 
 ---
 
 ## 🌐 Start Here
 
-**Want to see the actual investigation work?** → [SOC Incident Response Lab](https://github.com/Smithn1205/SOC-Incident-Response-Lab)
+**DevOps / Cloud Infrastructure** → [DevOps CI/CD Kubernetes Lab](https://github.com/Smithn1205/devops-cicd-kubernetes-lab)
 
-**Want to see structured security case studies?** → [KC7 Security Investigations](https://github.com/Smithn1205/KC7-Security-Investigations)
+**Cloud Security / Monitoring** → Azure security work documented in this portfolio
 
-**Want the broader personal overview?** → [Smithn1205 GitHub Profile](https://github.com/Smithn1205/Smithn1205)
+**Security Investigations** → [SOC Incident Response Lab](https://github.com/Smithn1205/SOC-Incident-Response-Lab)
+
+**Structured Casework** → [KC7 Security Investigations](https://github.com/Smithn1205/KC7-Security-Investigations)
+
+**Personal GitHub Profile** → [Smithn1205](https://github.com/Smithn1205)
