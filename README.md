@@ -151,7 +151,7 @@ Investigated simulated alerts in Elastic/Kibana, reviewed Sysmon process and fil
 - Correlated PowerShell activity, creation of `PowerView.ps1`, mapping of a financial-records share, Robocopy activity into a local `exfiltration` folder, network-drive disconnection, and repeated DNS queries to a suspicious domain.
 - Documented true-positive / false-positive classifications, escalation rationale, indicators, and recommended response actions.
 
-**Lab-reported results:** 100% true-positive identification rate, 75% false-positive identification rate, 35 alerts closed, and 17-minute mean dwell time. The mean time to resolve is not included.
+**Lab-reported results:** 100% true-positive identification rate, 75% false-positive identification rate, 35 alerts closed, and 17-minute mean dwell time.
 
 **Tools:** `Elastic Stack (ELK)` `Kibana` `Sysmon` `Email event analysis`
 
