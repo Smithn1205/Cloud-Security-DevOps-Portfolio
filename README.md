@@ -141,7 +141,7 @@ A collection of SOC-style investigations covering realistic analyst workflows, i
 
 ### Elastic SIEM (ELK) — TryHackMe SOC Investigation Lab
 
-[**Open the Elastic SIEM Lab Report →**](https://github.com/Smithn1205/SOC-Incident-Response-Lab/tree/main/TryHackMe-Elastic-SOC-Lab)
+[**Open the Elastic SIEM Lab Report →**](https://github.com/Smithn1205/SOC-Incident-Response-Lab/tree/main/TryHackMe-Elastic-SOC-Lab) · [**View TryHackMe public results →**](https://tryhackme.com/soc-sim/public-summary/4f350a99b8ce4cf49de7b788d41df5e56d78d48d17d83be95ebef244c2cf5aec600a53452ed321199a5bfa0619a1237a)
 
 Investigated simulated alerts in Elastic/Kibana, reviewed Sysmon process and file events, triaged suspicious emails, and correlated related events across a timeline.
 
