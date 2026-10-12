@@ -64,7 +64,7 @@ The repository documents the implementation as each stage is completed rather th
 
 ### Security Operations & Detection
 
-`Microsoft Sentinel` `Microsoft Defender XDR` `KQL` `Splunk` `SPL` `Log Analysis` `Incident Investigation` `Threat Hunting`
+`Elastic SIEM` `Kibana` `Sysmon` `Microsoft Sentinel` `Microsoft Defender XDR` `KQL` `Splunk` `SPL` `Log Analysis` `Incident Investigation` `Threat Hunting`
 
 **Practical focus:** security monitoring, alert investigation, log analysis, detection logic and incident investigation.
 
@@ -129,7 +129,7 @@ The work focuses on:
 
 [**Open the SOC Incident Response Lab →**](https://github.com/Smithn1205/SOC-Incident-Response-Lab)
 
-A self-built collection of SOC-style investigations covering realistic analyst workflows.
+A collection of SOC-style investigations covering realistic analyst workflows, including an Elastic SIEM (ELK/Kibana) lab using simulated Sysmon process events and email telemetry.
 
 | Investigation | Security focus |
 |---|---|
@@ -137,6 +137,25 @@ A self-built collection of SOC-style investigations covering realistic analyst w
 | **Suspicious PowerShell** | Windows process activity and suspicious execution analysis |
 | **Windows Authentication Anomaly** | Authentication behaviour and event correlation |
 | **Cloudflare WAF Investigation** | HTTP/WAF activity and network-security investigation |
+
+
+### Elastic SIEM (ELK) — TryHackMe SOC Investigation Lab
+
+[**Open the Elastic SIEM Lab Report →**](https://github.com/Smithn1205/SOC-Incident-Response-Lab/tree/main/TryHackMe-Elastic-SOC-Lab)
+
+Investigated simulated alerts in Elastic/Kibana, reviewed Sysmon process and file events, triaged suspicious emails, and correlated related events across a timeline.
+
+**Investigation highlights:**
+- Distinguished benign Windows process activity from suspicious execution patterns.
+- Investigated phishing-style email alerts using sender, subject, message content, and attachment metadata.
+- Correlated PowerShell activity, creation of `PowerView.ps1`, mapping of a financial-records share, Robocopy activity into a local `exfiltration` folder, network-drive disconnection, and repeated DNS queries to a suspicious domain.
+- Documented true-positive / false-positive classifications, escalation rationale, indicators, and recommended response actions.
+
+**Lab-reported results:** 100% true-positive identification rate, 75% false-positive identification rate, 35 alerts closed, and 17-minute mean dwell time. The mean time to resolve is not included.
+
+**Tools:** `Elastic Stack (ELK)` `Kibana` `Sysmon` `Email event analysis`
+
+> This was a simulated lab. The correlated events suggested potential data collection and DNS-based exfiltration; the available telemetry did not prove that external transfer succeeded.
 
 ---
 
@@ -211,6 +230,7 @@ My cybersecurity background provides a security-first perspective while I contin
 | **Identity security** | Entra ID, IAM, RBAC, Conditional Access and MFA |
 | **Security monitoring** | Azure/Sentinel + Defender XDR |
 | **Incident investigation** | SOC Incident Response Lab + KC7 |
+| **Elastic SIEM / Kibana** | [TryHackMe Elastic SIEM Lab Report](https://github.com/Smithn1205/SOC-Incident-Response-Lab/tree/main/TryHackMe-Elastic-SOC-Lab) |
 | **Network security** | Cloudflare WAF + Zero Trust research |
 | **Web security** | Burp Suite / PortSwigger work |
 | **Automation** | Python, Bash, PowerShell and CI/CD |
